@@ -1,0 +1,24 @@
+influxdb:
+    ip: 10.244.0.68
+    port: "8086"
+    organization: uestcydri
+    bucket: test
+    token: QS-dR2xz5rLlk6Jp5TM32svCDjpDCByQExqAAqaBIU5zPKinz3J4x9LrzOyEIuMkN-RxgJDE89tNiIN3lOZbHQ==
+sensor:
+    temp_upper_threshold: "12"
+    temp_lower_threshold: "10"
+    o2_upper_threshold: "15"
+    o2_lower_threshold: "5"
+    co2_upper_threshold: "15"
+    co2_lower_threshold: "12"
+    ph_upper_threshold: "16"
+    ph_lower_threshold: "15"
+    starch_upper_threshold: "0.8"
+    starch_lower_threshold: "0.5"
+mysql:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: root
+    dbname: test
+    others: charset=utf8mb4&parseTime=True&loc=Local

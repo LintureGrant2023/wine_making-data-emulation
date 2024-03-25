@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: data-emulation
+  labels: 
+    name: data-emulation
+spec: 
+  containers: 
+  - name: data-emulation
+    image: data-emulation:v1
+    imagePullPolicy: IfNotPresent
+    ports: 
+    - containerPort: 8090
+  tolerations: 
+  - operator: "Exists" 
+    effect: "NoSchedule"
