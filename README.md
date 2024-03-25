@@ -12,7 +12,7 @@
 
 ```
 //从github仓库拉取代码
-git clone ...
+git clone https://github.com/LintureGrant2023/wine_making-data-emulation.git
 
 //修改代码的配置
 1.修改mysql的配置
@@ -26,7 +26,7 @@ git clone ...
 
 ```
 
-![image-20240325161755016](C:\Users\33116\Desktop\资料夹\我的工作记录\Untitled.assets\image-20240325161755016.png)
+![image-20240325161755016](img\img.png)
 
 ## 2.制作镜像
 
