@@ -26,7 +26,7 @@ git clone https://github.com/LintureGrant2023/wine_making-data-emulation.git
 
 ```
 
-![image-20240325161755016](img\img.png)
+![image-20240325161755016](/img/img.png)
 
 ## 2.制作镜像
 
